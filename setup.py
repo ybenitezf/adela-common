@@ -4,6 +4,7 @@ import os
 def read(fname):
     return open(os.path.join(os.path.dirname(__file__), fname)).read()
 
+
 setup(
     name='adelacommon',
     version='0.0.1',
@@ -18,7 +19,13 @@ setup(
     zip_safe=False,
     platforms='any',
     install_requires=[
-        "Flask>=0.8"
+        "Flask>=0.8",
+        "Flask-Migrate"
+    ],
+    setup_requires=['pytest-runner'],
+    tests_require=[
+        'pytest', 
+        'pytest-cov'
     ],
     classifiers=[
         'Environment :: Web Environment', 
