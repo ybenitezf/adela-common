@@ -1,1 +1,1 @@
-# Paquetes comunes para la solución de Adelante.cu
+# Common code for adelante.cu
