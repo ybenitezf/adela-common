@@ -7,7 +7,7 @@ def read(fname):
 
 setup(
     name='adelacommon',
-    version='0.0.1',
+    version='0.0.2',
     url='https://github.com/ybenitezf/adela-common',
     license='GPL',
     author='Yoel Benítez Fonseca',
